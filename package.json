@@ -1,0 +1,36 @@
+{
+  "name": "patato",
+  "version": "0.1.0",
+  "description": "Animated patato",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drxos/animated-potato.git"
+  },
+  "keywords": [
+    "node",
+    "mvc",
+    "drxos"
+  ],
+  "author": "drxos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drxos/animated-potato/issues"
+  },
+  "homepage": "https://github.com/drxos/animated-potato#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.1",
+    "swig-templates": "^2.0.2"
+  }
+}
